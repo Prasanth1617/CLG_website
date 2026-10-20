@@ -1,0 +1,10 @@
+*.JPG
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.sql
+*.bak
+vendor/
+node_modules/
+.env

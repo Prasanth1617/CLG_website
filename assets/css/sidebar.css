@@ -1,0 +1,271 @@
+
+
+        .text-center {
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+
+        .justify-content-center {
+            justify-content: center;
+        }
+
+        .col-md-4 {
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+            padding: 0 15px;
+        }
+
+        /* Inside Container - Container for side panel */
+        .inside-container {
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Portfolio Area */
+     
+        /* Side Tab Button - Mobile Only */
+        .side-tab-btn {
+            position: fixed;
+            right: -23px;
+            top: 50%;
+            transform: translateY(-50%) rotate(0deg);
+            background: linear-gradient(135deg, #ff0000, #cc0000);
+            color: white;
+            padding: 12px 25px;
+            cursor: pointer;
+            border-radius: 8px 8px 0 0;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 1px;
+            box-shadow: -3px 3px 15px rgba(255, 0, 0, 0.3);
+            z-index: 999;
+            transition: all 0.3s ease;
+            display: none;
+            border: none;
+        }
+
+        .side-tab-btn:hover {
+            background: linear-gradient(135deg, #cc0000, #990000);
+            right: -12px;
+        }
+
+        /* Side Panel - ABSOLUTE positioning within container */
+        .side-panel {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 350px;
+            height: 100%;
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+            box-shadow: -5px 0 25px rgba(0, 0, 0, 0.15);
+            transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            z-index: 995;
+            overflow-y: auto;
+            transform: translateX(0);
+        }
+
+        /* Close Button */
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #ff0000;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 1002;
+        }
+
+        .close-btn:hover {
+            background: #cc0000;
+            transform: rotate(90deg);
+        }
+
+        /* Panel Header */
+        .panel-header {
+            background: linear-gradient(135deg, #ff0000, #cc0000);
+            color: white;
+            padding: 30px 20px 25px;
+            text-align: center;
+            position: relative;
+        }
+
+        .panel-header h3 {
+            font-size: 22px;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .panel-header p {
+            font-size: 13px;
+            opacity: 0.9;
+            margin: 0;
+        }
+
+        /* Panel Content */
+        .panel-content {
+            padding: 25px 20px;
+        }
+
+        .menu-section {
+            margin-bottom: 30px;
+        }
+
+        .menu-section-title {
+            color: #343a40;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ff0000;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu-section-title i {
+            margin-right: 8px;
+            color: #ff0000;
+        }
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-list li {
+            margin-bottom: 8px;
+        }
+
+        .menu-list a {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            color: #343a40;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+            background: white;
+            border: 1px solid #e9ecef;
+        }
+
+        .menu-list a:hover {
+            background: linear-gradient(135deg, #ff0000, #cc0000);
+            color: white;
+            transform: translateX(5px);
+            box-shadow: 0 3px 10px rgba(255, 0, 0, 0.2);
+        }
+
+        .menu-list a i {
+            margin-right: 12px;
+            width: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        /* Scrollbar */
+        .side-panel::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .side-panel::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .side-panel::-webkit-scrollbar-thumb {
+            background: #ff0000;
+            border-radius: 3px;
+        }
+
+        .side-panel::-webkit-scrollbar-thumb:hover {
+            background: #cc0000;
+        }
+
+        /* Overlay - ABSOLUTE positioning within container */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 994;
+            display: none;
+        }
+
+        .overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Desktop View - Side panel always visible */
+        @media (min-width: 769px) {
+            .inside-container {
+                padding-right: 350px;
+            }
+        }
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .side-tab-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .side-panel {
+                width: 300px;
+                transform: translateX(100%);
+            }
+
+            .side-panel.active {
+                transform: translateX(0);
+            }
+
+            .close-btn {
+                display: flex;
+            }
+
+            .overlay {
+                display: block;
+            }
+
+            .col-md-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .py-120 {
+                padding: 60px 0;
+            }
+
+            .inside-container {
+                padding-right: 0;
+            }
+        }
+
+        /* Prevent body scroll when panel is open on mobile */
+        body.panel-open {
+            overflow: hidden;
+        }
