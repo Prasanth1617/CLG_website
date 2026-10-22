@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/auth.php';
 // download_template.php
 // This file generates and downloads an Excel template for bulk user upload
 

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/auth.php';
 include "db.php";
 
 // 🔹 Change table name here

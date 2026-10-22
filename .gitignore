@@ -8,3 +8,4 @@
 vendor/
 node_modules/
 .env
+admin/fake-login.php

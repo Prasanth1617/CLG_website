@@ -1,4 +1,6 @@
 <?php
+define('ADMIN_JSON', true);
+require_once __DIR__ . '/auth.php';
 include 'db.php';
 
 header('Content-Type: application/json');
