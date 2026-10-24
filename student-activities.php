@@ -10,11 +10,16 @@ include 'admin/db.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Student Activities at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:title" content="Student Activities – Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:description" content="Student Activities at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:image" content="https://www.tkscas.com/assets/img/logo/logo.jpg">
     <meta name="keywords" content="">
 
     <!-- title -->
-    <title>Theni Kammavar Sangam College of Arts & Science</title>
+    <title>Student Activities – Theni Kammavar Sangam College of Arts &amp; Science</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.jpg">
@@ -27,9 +32,11 @@ include 'admin/db.php';
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
 
     <!-- preloader -->
@@ -152,7 +159,7 @@ include 'admin/db.php';
             </div>
         </div>
     </div>    <!-- header area end -->
-    <main class="main">
+    <main id="main-content" class="main">
 
         <!-- breadcrumb -->
         <div class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
@@ -225,7 +232,7 @@ include 'admin/db.php';
                         <div class="col-lg-6">
                             <div class="details-item">
                                 <div class="details-item-img">
-                                    <img src="assets/img/activity/03.jpg" alt="">
+                                    <img loading="lazy" decoding="async" src="assets/img/activity/03.jpg" alt="">
                                 </div>
                                 <h3 class="my-3">Our Student Becomes Champion in Soccer</h3>
                                 <p>
@@ -243,7 +250,7 @@ include 'admin/db.php';
                         <div class="col-lg-6">
                             <div class="details-item">
                                 <div class="details-item-img">
-                                    <img src="assets/img/activity/04.jpg" alt="">
+                                    <img loading="lazy" decoding="async" src="assets/img/activity/04.jpg" alt="">
                                 </div>
                                 <h3 class="my-3">Our Student Becomes Champion in Soccer</h3>
                                 <p>
@@ -257,7 +264,7 @@ include 'admin/db.php';
                         <div class="col-lg-6">
                             <div class="details-item">
                                 <div class="details-item-img">
-                                    <img src="assets/img/activity/05.jpg" alt="">
+                                    <img loading="lazy" decoding="async" src="assets/img/activity/05.jpg" alt="">
                                 </div>
                                 <h3 class="my-3">Our Student Becomes Champion in Soccer</h3>
                                 <p>
@@ -316,7 +323,7 @@ include 'admin/db.php';
     <!-- footer area -->
     <footer class="footer-area">
         <div class="footer-shape">
-            <img src="assets/img/shape/03.png" alt="">
+            <img loading="lazy" decoding="async" src="assets/img/shape/03.png" alt="">
         </div>
         <div class="footer-widget">
             <div class="container">

@@ -1,0 +1,53 @@
+/* polish.css - small, safe improvements loaded after the theme CSS.
+   Does not change colours, logo or layout. */
+
+/* Skip link: hidden until a keyboard user tabs to it */
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -60px;
+  z-index: 100000;
+  padding: 10px 16px;
+  background: #fff;
+  color: #000;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus { top: 8px; }
+
+/* Visible keyboard focus (the theme hides it in places) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+/* Images never overflow their container */
+img { max-width: 100%; height: auto; }
+
+/* Long links and words wrap instead of breaking the page width on phones */
+.container p, .container li, .container td, .container a { overflow-wrap: break-word; }
+
+/* Anchor jumps land below the sticky header */
+[id] { scroll-margin-top: 90px; }
+
+/* Wide tables scroll sideways inside themselves on small screens */
+@media (max-width: 767px) {
+  .container table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+}
+
+/* Respect people who turn animations off in their device settings */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

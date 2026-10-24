@@ -11,7 +11,12 @@ include 'admin/db.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Administration at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:title" content="Administration - Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:description" content="Administration at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:image" content="https://www.tkscas.com/assets/img/logo/logo.jpg">
     <meta name="keywords" content="">
 
     <title>Administration - Theni Kammavar Sangam College of Arts & Science</title>
@@ -384,9 +389,11 @@ include 'admin/db.php';
         .mgmt-card:nth-child(3) { animation-delay: 0.25s; }
         .mgmt-card:nth-child(4) { animation-delay: 0.35s; }
     </style>
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <!-- preloader -->
     <div class="preloader">
@@ -427,7 +434,7 @@ include 'admin/db.php';
         </div>
     </div>
 
-    <main class="main">
+    <main id="main-content" class="main">
         <!-- breadcrumb -->
         <div class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
             <div class="container">
@@ -495,7 +502,7 @@ include 'admin/db.php';
                     <!-- General Secretary -->
                     <div class="mgmt-card accent-coral">
                         <div class="mgmt-card-img">
-                            <img src="assets/img/management/mahesh-236x300.png" alt="Thiru. D. Mahesh – General Secretary"
+                            <img loading="lazy" decoding="async" src="assets/img/management/mahesh-236x300.png" alt="Thiru. D. Mahesh – General Secretary"
                                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                             <div class="mgmt-avatar-fallback" style="display:none;">
                                 <div class="mgmt-avatar-circle">DM</div>
@@ -513,7 +520,7 @@ include 'admin/db.php';
                     <!-- Treasurer -->
                     <div class="mgmt-card accent-blue">
                         <div class="mgmt-card-img">
-                            <img src="assets/img/management/01.jpg" alt="Thiru. R. Vasudevan – Treasurer"
+                            <img loading="lazy" decoding="async" src="assets/img/management/01.jpg" alt="Thiru. R. Vasudevan – Treasurer"
                                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                             <div class="mgmt-avatar-fallback" style="display:none;">
                                 <div class="mgmt-avatar-circle">RV</div>
@@ -598,7 +605,7 @@ include 'admin/db.php';
     <!-- footer area -->
     <footer class="footer-area">
         <div class="footer-shape">
-            <img src="assets/img/shape/03.png" alt="">
+            <img loading="lazy" decoding="async" src="assets/img/shape/03.png" alt="">
         </div>
 
         <div class="footer-header-top">
@@ -651,12 +658,12 @@ include 'admin/db.php';
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Our Campus</h4>
                             <div class="footer-campus-gallery">
-                                <a href="#"><img src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
-                                <a href="#"><img src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
-                                <a href="#"><img src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
-                                <a href="#"><img src="assets/img/facility/l2.jpg" alt="Canteen"></a>
-                                <a href="#"><img src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
-                                <a href="#"><img src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/l2.jpg" alt="Canteen"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
                             </div>
                         </div>
                     </div>

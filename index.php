@@ -169,7 +169,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Theni Kammavar Sangam College of Arts &amp; Science, Theni: admissions, courses, departments, facilities, placements, news and events.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:title" content="Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:description" content="Theni Kammavar Sangam College of Arts &amp; Science, Theni: admissions, courses, departments, facilities, placements, news and events.">
+    <meta property="og:image" content="https://www.tkscas.com/assets/img/logo/logo.jpg">
     <meta name="keywords" content="">
 
     <!-- title -->
@@ -191,9 +196,11 @@
     <style>
 
     </style>
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
 
     <!-- preloader -->
@@ -321,7 +328,7 @@
 
 
 
-    <main class="main">
+    <main id="main-content" class="main">
 
             <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
 
@@ -608,7 +615,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="counter-box">
                             <div class="icon">
-                                <img src="assets/img/icon/graduation.svg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/icon/graduation.svg" alt="">
                             </div>
                             <div>
                                 <span class="counter" data-count="+" data-to="1108" data-speed="3000">1108</span>
@@ -619,7 +626,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="counter-box">
                             <div class="icon">
-                                <img src="assets/img/icon/teacher-2.svg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/icon/teacher-2.svg" alt="">
                             </div>
                             <div>
                                 <span class="counter" data-count="+" data-to="90" data-speed="3000">90</span>
@@ -630,7 +637,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="counter-box">
                             <div class="icon">
-                                <img src="assets/img/icon/award.svg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/icon/award.svg" alt="">
                             </div>
                             <div>
                                 <span class="counter" data-count="+" data-to="30" data-speed="3000">30</span>
@@ -794,7 +801,7 @@
                     <div class="dept-card">
                         <div class="department-item">
                             <div class="department-img-top">
-                                <img src="assets/img/facility/hostel.jpg" alt="Hostel">
+                                <img loading="lazy" decoding="async" src="assets/img/facility/hostel.jpg" alt="Hostel">
                             </div>
                             <div class="department-info-bottom">
                                 <h4 class="department-title"><a href="hostel.php">Hostel</a></h4>
@@ -810,7 +817,7 @@
                     <div class="dept-card">
                         <div class="department-item">
                             <div class="department-img-top">
-                                <img src="assets/img/facility/c1.jpg" alt="Laboratory">
+                                <img loading="lazy" decoding="async" src="assets/img/facility/c1.jpg" alt="Laboratory">
                             </div>
                             <div class="department-info-bottom">
                                 <h4 class="department-title"><a href="lab.php">Laboratory</a></h4>
@@ -826,7 +833,7 @@
                     <div class="dept-card">
                         <div class="department-item">
                             <div class="department-img-top">
-                                <img src="assets/img/facility/l2.jpg" alt="Library">
+                                <img loading="lazy" decoding="async" src="assets/img/facility/l2.jpg" alt="Library">
                             </div>
                             <div class="department-info-bottom">
                                 <h4 class="department-title"><a href="library.php">Library</a></h4>
@@ -842,7 +849,7 @@
                     <div class="dept-card">
                         <div class="department-item">
                             <div class="department-img-top">
-                                <img src="assets/img/facility/sports.avif" alt="Sports">
+                                <img loading="lazy" decoding="async" src="assets/img/facility/sports.avif" alt="Sports">
                             </div>
                             <div class="department-info-bottom">
                                 <h4 class="department-title"><a href="sports.php">Sports</a></h4>
@@ -858,7 +865,7 @@
                     <div class="dept-card">
                         <div class="department-item">
                             <div class="department-img-top">
-                                <img src="assets/img/facility/bus.jpg" alt="Bus Facility">
+                                <img loading="lazy" decoding="async" src="assets/img/facility/bus.jpg" alt="Bus Facility">
                             </div>
                             <div class="department-info-bottom">
                                 <h4 class="department-title"><a href="bus-facility.php">Bus Facility</a></h4>
@@ -874,7 +881,7 @@
                     <div class="dept-card">
                         <div class="department-item">
                             <div class="department-img-top">
-                                <img src="assets/img/facility/placement.avif" alt="Placement">
+                                <img loading="lazy" decoding="async" src="assets/img/facility/placement.avif" alt="Placement">
                             </div>
                             <div class="department-info-bottom">
                                 <h4 class="department-title"><a href="placement.php">Placement</a></h4>
@@ -1128,7 +1135,7 @@
     <!-- footer area -->
     <footer class="footer-area">
         <div class="footer-shape">
-            <img src="assets/img/shape/03.png" alt="">
+            <img loading="lazy" decoding="async" src="assets/img/shape/03.png" alt="">
         </div>
         
 
@@ -1164,12 +1171,12 @@
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Our Campus</h4>
                             <div class="footer-campus-gallery">
-                                <a href="#"><img src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
-                                <a href="#"><img src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
-                                <a href="#"><img src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
-                                <a href="#"><img src="assets/img/facility/l2.jpg" alt="Canteen"></a>
-                                <a href="#"><img src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
-                                <a href="#"><img src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/l2.jpg" alt="Canteen"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
                             </div>
                         </div>
                     </div>
@@ -1381,10 +1388,10 @@
         <button id="homePopupClose" onclick="closeHomePopup()" aria-label="Close">&times;</button>
         <?php if (!empty($popupRow['link'])): ?>
             <a href="<?= htmlspecialchars($popupRow['link']) ?>" target="_blank" rel="noopener noreferrer">
-                <img src="admin/uploads/<?= htmlspecialchars($popupRow['image']) ?>" alt="Announcement">
+                <img loading="lazy" decoding="async" src="admin/uploads/<?= htmlspecialchars($popupRow['image']) ?>" alt="Announcement">
             </a>
         <?php else: ?>
-            <img src="admin/uploads/<?= htmlspecialchars($popupRow['image']) ?>" alt="Announcement">
+            <img loading="lazy" decoding="async" src="admin/uploads/<?= htmlspecialchars($popupRow['image']) ?>" alt="Announcement">
         <?php endif; ?>
     </div>
 </div>

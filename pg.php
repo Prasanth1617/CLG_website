@@ -13,11 +13,16 @@ include 'admin/db.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Postgraduate programmes offered at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:title" content="PG Department – Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:description" content="Postgraduate programmes offered at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:image" content="https://www.tkscas.com/assets/img/logo/logo.jpg">
     <meta name="keywords" content="">
 
     <!-- title -->
-    <title>Theni Kammavar Sangam College of Arts & Science</title>
+    <title>PG Department – Theni Kammavar Sangam College of Arts &amp; Science</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.jpg">
@@ -273,9 +278,11 @@ include 'admin/db.php';
             }
         }
 </style>
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
 
     <!-- preloader -->
@@ -401,7 +408,7 @@ include 'admin/db.php';
 
 
         <!-- breadcrumb -->
-        <div class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
+        <div id="main-content" class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
             <div class="container">
                 <h2 class="breadcrumb-title">PG Department</h2>
                 <ul class="breadcrumb-menu">
@@ -463,7 +470,7 @@ include 'admin/db.php';
                         <div class="course-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="course-img">
                                 <span class="course-tag"><i class="far fa-bookmark"></i> M.Com</span>
-                                <img src="assets/img/course/bcom.jpg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/course/bcom.jpg" alt="">
                                 <a href="commerce-banking-department.php" class="btn"><i class="far fa-link"></i></a>
                             </div>
                             <div class="course-content">
@@ -482,7 +489,7 @@ include 'admin/db.php';
                         <div class="course-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="course-img">
                                 <span class="course-tag"><i class="far fa-bookmark"></i>M.Com</span>
-                                <img src="assets/img/course/bcom ca.jpg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/course/bcom ca.jpg" alt="">
                                 <a href="commerce-with-ca-department.php" class="btn"><i class="far fa-link"></i></a>
 
                             </div>
@@ -502,7 +509,7 @@ include 'admin/db.php';
                         <div class="course-item wow fadeInUp" data-wow-delay=".50s">
                             <div class="course-img">
                                 <span class="course-tag"><i class="far fa-bookmark"></i>Mathematics</span>
-                                <img src="assets/img/course/bsc maths.jpg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/course/bsc maths.jpg" alt="">
                                 <a href="maths.php" class="btn"><i class="far fa-link"></i></a>
                             </div>
                             <div class="course-content">
@@ -521,7 +528,7 @@ include 'admin/db.php';
                         <div class="course-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="course-img">
                                 <span class="course-tag"><i class="far fa-bookmark"></i> Computer Science</span>
-                                <img src="assets/img/course/bsc cs.jpg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/course/bsc cs.jpg" alt="">
                                 <a href="cs.php" class="btn"><i class="far fa-link"></i></a>
                             </div>
                             <div class="course-content">
@@ -540,7 +547,7 @@ include 'admin/db.php';
                         <div class="course-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="course-img">
                                 <span class="course-tag"><i class="far fa-bookmark"></i>Physics</span>
-                                <img src="assets/img/course/Bsc-Physics.jpg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/course/Bsc-Physics.jpg" alt="">
                                 <a href="physics.php" class="btn"><i class="far fa-link"></i></a>
 
                             </div>
@@ -560,7 +567,7 @@ include 'admin/db.php';
                         <div class="course-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="course-img">
                                 <span class="course-tag"><i class="far fa-bookmark"></i> Chemistry</span>
-                                <img src="assets/img/course/department-of-chemistry.jpg" alt="">
+                                <img loading="lazy" decoding="async" src="assets/img/course/department-of-chemistry.jpg" alt="">
                                <a href="chemistry.php" class="btn"><i class="far fa-link"></i></a>
                             </div>
                             <div class="course-content">
@@ -624,7 +631,7 @@ include 'admin/db.php';
     <!-- footer area -->
 <footer class="footer-area">
     <div class="footer-shape">
-        <img src="assets/img/shape/03.png" alt="">
+        <img loading="lazy" decoding="async" src="assets/img/shape/03.png" alt="">
     </div>
     
 
@@ -660,12 +667,12 @@ TKS College is dedicated to providing quality education through innovative teach
                     <div class="footer-widget-box list">
                         <h4 class="footer-widget-title">Our Campus</h4>
                         <div class="footer-campus-gallery">
-                            <a href="#"><img src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
-                            <a href="#"><img src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
-                            <a href="#"><img src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
-                            <a href="#"><img src="assets/img/facility/l2.jpg" alt="Canteen"></a>
-                            <a href="#"><img src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
-                            <a href="#"><img src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/l2.jpg" alt="Canteen"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
                         </div>
                     </div>
                 </div>

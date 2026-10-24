@@ -357,9 +357,11 @@ include 'admin/db.php';
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <!-- preloader -->
     <div class="preloader">
         <div class="loader-book">
@@ -478,7 +480,7 @@ include 'admin/db.php';
         </div>
     </div>    <!-- header area end -->
 
-    <main class="main">
+    <main id="main-content" class="main">
         <div class="search-header">
             <div class="container">
                 <div class="search-box-wrapper">

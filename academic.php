@@ -10,11 +10,16 @@ include 'admin/db.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Academics at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:title" content="Academics – Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:description" content="Academics at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:image" content="https://www.tkscas.com/assets/img/logo/logo.jpg">
     <meta name="keywords" content="">
 
     <!-- title -->
-    <title>Theni Kammavar Sangam College of Arts & Science</title>
+    <title>Academics – Theni Kammavar Sangam College of Arts &amp; Science</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.jpg">
@@ -27,9 +32,11 @@ include 'admin/db.php';
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
 
     <!-- preloader -->
@@ -157,7 +164,7 @@ include 'admin/db.php';
 
 
 
-    <main class="main">
+    <main id="main-content" class="main">
 
         <!-- breadcrumb -->
         <div class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
@@ -228,7 +235,7 @@ include 'admin/db.php';
                         <div class="col-md-6 col-lg-4">
                             <div class="facility-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="facility-img">
-                                    <img src="assets/img/facility/03.jpg" alt="">
+                                    <img loading="lazy" decoding="async" src="assets/img/facility/03.jpg" alt="">
                                 </div>
                                 <div class="facility-content">
                                     <h3 class="facility-title">
@@ -247,7 +254,7 @@ include 'admin/db.php';
                         <div class="col-md-6 col-lg-4">
                             <div class="facility-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="facility-img">
-                                    <img src="assets/img/facility/04.jpg" alt="">
+                                    <img loading="lazy" decoding="async" src="assets/img/facility/04.jpg" alt="">
                                 </div>
                                 <div class="facility-content">
                                     <h3 class="facility-title">
@@ -266,7 +273,7 @@ include 'admin/db.php';
                         <div class="col-md-6 col-lg-4">
                             <div class="facility-item wow fadeInDown" data-wow-delay=".25s">
                                 <div class="facility-img">
-                                    <img src="assets/img/facility/05.jpg" alt="">
+                                    <img loading="lazy" decoding="async" src="assets/img/facility/05.jpg" alt="">
                                 </div>
                                 <div class="facility-content">
                                     <h3 class="facility-title">
@@ -285,7 +292,7 @@ include 'admin/db.php';
                         <div class="col-md-6 col-lg-4">
                             <div class="facility-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="facility-img">
-                                    <img src="assets/img/facility/06.jpg" alt="">
+                                    <img loading="lazy" decoding="async" src="assets/img/facility/06.jpg" alt="">
                                 </div>
                                 <div class="facility-content">
                                     <h3 class="facility-title">
@@ -348,7 +355,7 @@ include 'admin/db.php';
     <!-- footer area -->
 <footer class="footer-area">
     <div class="footer-shape">
-        <img src="assets/img/shape/03.png" alt="">
+        <img loading="lazy" decoding="async" src="assets/img/shape/03.png" alt="">
     </div>
     
 
@@ -384,12 +391,12 @@ include 'admin/db.php';
                     <div class="footer-widget-box list">
                         <h4 class="footer-widget-title">Our Campus</h4>
                         <div class="footer-campus-gallery">
-                            <a href="#"><img src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
-                            <a href="#"><img src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
-                            <a href="#"><img src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
-                            <a href="#"><img src="assets/img/facility/l2.jpg" alt="Canteen"></a>
-                            <a href="#"><img src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
-                            <a href="#"><img src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/l2.jpg" alt="Canteen"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
+                            <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
                         </div>
                     </div>
                 </div>

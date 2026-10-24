@@ -294,8 +294,10 @@ $roles = [
             .role-tab i { font-size: 16px; }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <?php include('header.php'); ?>
 
 
@@ -406,7 +408,7 @@ $roles = [
     </div>
     
         <!-- header area end -->
-        <div class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
+        <div id="main-content" class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
             <div class="container">
                 <h2 class="breadcrumb-title">Feedback Login</h2>
                 <ul class="breadcrumb-menu">
@@ -558,12 +560,12 @@ $roles = [
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Our Campus</h4>
                             <div class="footer-campus-gallery">
-                                <a href="#"><img src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
-                                <a href="#"><img src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
-                                <a href="#"><img src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
-                                <a href="#"><img src="assets/img/facility/l2.jpg" alt="Canteen"></a>
-                                <a href="#"><img src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
-                                <a href="#"><img src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/c1.jpg" alt="Main Campus"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/chem2-1536x1024.jpg" alt="Library"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/hostel.jpg" alt="Hostel"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/facility/l2.jpg" alt="Canteen"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/New folder/ICON7194.JPG" alt="Computer Lab"></a>
+                                <a href="#"><img loading="lazy" decoding="async" src="assets/img/gallery/1st Year Inagural/New/DSC_1857.JPG" alt="Sports Ground"></a>
                             </div>
                         </div>
                     </div>

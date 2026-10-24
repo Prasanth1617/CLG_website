@@ -10,11 +10,16 @@ include 'admin/db.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Student Activities at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Theni Kammavar Sangam College of Arts &amp; Science">
+    <meta property="og:title" content="Student Feedback Form - TKS College">
+    <meta property="og:description" content="Student Activities at Theni Kammavar Sangam College of Arts &amp; Science, Theni.">
+    <meta property="og:image" content="https://www.tkscas.com/assets/img/logo/logo.jpg">
     <meta name="keywords" content="">
 
     <!-- title -->
-    <title>Theni Kammavar Sangam College of Arts & Science</title>
+    <title>Student Activities – Theni Kammavar Sangam College of Arts &amp; Science</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.jpg">
@@ -251,8 +256,10 @@ include 'admin/db.php';
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/polish.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
     <!-- preloader -->
@@ -376,7 +383,7 @@ include 'admin/db.php';
         </div>
     </div>                            <!-- header area end -->
                             <!-- breadcrumb -->
-                                <div class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
+                                <div id="main-content" class="site-breadcrumb" style="background: url(assets/img/gallery/college-bg.jpg)">
                                     <div class="container">
                                         <h2 class="breadcrumb-title">Student Activities</h2>
                                         <ul class="breadcrumb-menu">
