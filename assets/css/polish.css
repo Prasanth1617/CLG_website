@@ -51,3 +51,63 @@ img { max-width: 100%; height: auto; }
     scroll-behavior: auto !important;
   }
 }
+
+/* =====================================================================
+   Mobile and tablet spacing (added in the mobile pass)
+   The theme keeps desktop-size banners, headings and section padding on
+   phones, so the real content starts far below the first screen.
+   ===================================================================== */
+
+/* Tablets and below: the inner-page banner was 380px+ tall */
+@media (max-width: 991px) {
+  .site-breadcrumb { padding-top: 110px; padding-bottom: 90px; }
+}
+
+/* Phones */
+@media (max-width: 767px) {
+  /* Inner-page banner */
+  .site-breadcrumb { padding-top: 56px; padding-bottom: 48px; }
+  .site-breadcrumb .breadcrumb-title { font-size: 28px; line-height: 1.2; margin-bottom: 6px; }
+  .site-breadcrumb .breadcrumb-menu li { font-size: 14px; }
+
+  /* Headings: 35-55px headings are too big for a 360px screen */
+  h1 { font-size: 30px; }
+  h2 { font-size: 26px; }
+  h3 { font-size: 22px; }
+  h4 { font-size: 19px; }
+  .site-title { font-size: 30px; line-height: 1.25; }
+
+  /* Section spacing: 100-120px above and below every section is too much */
+  .py-120 { padding-top: 56px; padding-bottom: 56px; }
+  .pt-120 { padding-top: 56px; }
+  .pb-120 { padding-bottom: 56px; }
+  .pb-140 { padding-bottom: 60px; }
+  .pt-100, .pt-90 { padding-top: 40px; }
+  .pb-100, .pb-90 { padding-bottom: 40px; }
+  .pt-80 { padding-top: 36px; }
+  .pb-80 { padding-bottom: 36px; }
+
+  /* "More Information" side tab: smaller, and lower so it stops covering the banner title */
+  .side-tab-btn { top: 58%; padding: 10px 6px; font-size: 13px; }
+}
+
+/* ---- About Institution: stats card ----
+   On phones the four numbers sat in one sideways-scrolling row, so
+   "Faculty Members" and "University Ranks" were cut off. Show them as 2 x 2. */
+@media (max-width: 767px) {
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 22px 14px;
+    overflow: visible;
+  }
+  .stat-item { padding: 12px 6px; }
+  .stat-icon { font-size: 2rem; margin-bottom: 8px; }
+  .stat-number { font-size: 1.6rem; }
+  .stat-label { font-size: 0.9rem; }
+
+  /* Bootstrap "py-5" on a section plus the container inside it stacked ~96px of blank space */
+  section.py-5 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+  section > .container.py-5 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
